@@ -1,0 +1,28 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	width:100%;
+	margin:0;
+}
+.bgTitle{
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:5px;
+	font-size:3em;
+}
+.backgroundGeneratorContainer{
+	width:100%;
+	height:100vh;
+	border-top:2px solid black;
+	font-family:'Raleway', sans-sarif;
+	display:flex;
+	color:rgba(0,0,0,0.5);
+	flex-direction:column;
+	align-items:center;
+}
+.backgroundGeneratorContainer h3{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size:1em;
+}

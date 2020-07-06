@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Javascript test</title>
+</head>
+<body>
+
+<section class="backgroundGeneratorContainer">
+       <h2 class="bgTitle">Background Generator</h2>
+       <div style="display:block;">
+           <input type="number" max="360" min="0" class="colorPicked" style="width:53px;" value="90">
+           <input type="color" class="colorPicked" value="#00ff00">
+           <input type="color" class="colorPicked" value="#ff0000">
+          
+        </div>
+        <h3 >Current CSS background:</h3>
+        <h4 id="selectedBgVal"></h4>
+        <button onclick="copyClrBtn()" style="margin:15px 0;">Copy</button>
+        <button onclick="generateAndSetNewClrs()" style="margin-left:18px;" >Generate Random</button> 
+   </section>
+        <!-- scripts -->
+    <script type="text/javascript" src="script.js"></script>
+<body>
+
+</html>
